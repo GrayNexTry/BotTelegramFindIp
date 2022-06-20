@@ -2,7 +2,7 @@ import telebot
 import socket
 import requests
 
-bot = telebot.TeleBot("5574438414:AAFtZC11H0fPK0rTqUruGGMlInfngoRjuno")
+bot = telebot.TeleBot("***")
 
 @bot.message_handler(commands=['start'])
 def start(message):
